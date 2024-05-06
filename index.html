@@ -1,22 +1,126 @@
 <!DOCTYPE html>
-
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="logo.png" />
+        <title>TisLeo</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image" href="/src/assets/leo_logo.png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Courgette&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="https://kit.fontawesome.com/20ed914ecd.js" crossorigin="anonymous"></script>
-  <title>TisLeo Dev</title>
-</head>
+            body {
+                background: url("pattern.svg");
+                font-family: "Arial", sans-serif;
+                font-size: large;
+                font-weight: 600;
+                background-color: black;
+                color: lightgrey;
+                height: 100vh;
+            }
 
-<body>
-  <div id="app"></div>
-  <script type="module" src="/src/main.ts"></script>
-</body>
+            span {
+                color: #bfa000;
+            }
 
+            #memoji {
+                height: 128px;
+                width: auto;
+            }
+
+            #container {
+                flex-direction: column;
+                text-align: start;
+                align-items: flex-start;
+                gap: 2rem;
+            }
+
+            .flex {
+                display: flex;
+                justify-content: center;
+            }
+
+            h1 {
+                font-weight: bold;
+                font-size: xx-large;
+            }
+
+            a {
+                color: lightgrey;
+                text-decoration: underline;
+            }
+
+            a:hover {
+                text-decoration: none;
+            }
+
+            @media screen and (max-width: 480px) {
+                body {
+                    font-size: medium;
+                }
+
+                #container {
+                    max-width: 85%;
+                    gap: 1rem;
+                }
+
+                #memoji {
+                    height: 96px;
+                    width: auto;
+                }
+            }
+        </style>
+    </head>
+    <body class="flex">
+        <div id="container" class="flex">
+            <img id="memoji" src="memoji.png" alt="My memoji." />
+            <h1>Hi, I'm <span>Leo</span> 👋</h1>
+            <div>
+                <p>A <span>digital & technology solutions</span> student from the UK.</p>
+                <p>I like to code stuff.</p>
+            </div>
+            <div id="badges">
+                <!-- Languages -->
+                <div id="languages-badges">
+                    <img src="https://img.shields.io/badge/JavaScript-1a202c?style=for-the-badge&logo=javascript&logoColor=bfa000" alt="The JavaScript logo." />
+                    <img src="https://img.shields.io/badge/TypeScript-1a202c?style=for-the-badge&logo=typescript&logoColor=bfa000" alt="The TypeScript logo." />
+                    <img src="https://img.shields.io/badge/Python-1a202c?style=for-the-badge&logo=python&logoColor=bfa000" alt="The Python logo." />
+                    <img src="https://img.shields.io/badge/Go-1a202c?style=for-the-badge&logo=go&logoColor=bfa000" alt="The Go logo." />
+                    <img src="https://img.shields.io/badge/Java-1a202c?style=for-the-badge&logo=openjdk&logoColor=bfa000" alt="The Java logo." />
+                    <img src="https://img.shields.io/badge/C%23-1a202c?style=for-the-badge&logo=csharp&logoColor=bfa000" alt="The C-Sharp logo." />
+                    <img src="https://img.shields.io/badge/sql-1a202c?style=for-the-badge&logo=sqlite&logoColor=bfa000" alt="The SQLite logo." />
+                </div>
+
+                <!-- Apps/Programs -->
+                <div id="apps-programs-badges">
+                    <img
+                        src="https://img.shields.io/badge/VISUAL_STUDIO_CODE-1a202c?style=for-the-badge&logo=visual%20studio%20code&logoColor=bfa000"
+                        alt="The Visual Studio Code Logo." />
+                    <img
+                        src="https://img.shields.io/badge/intellij_idea-1a202c?style=for-the-badge&logo=intellij%20idea&logoColor=bfa000"
+                        alt="The Intellij Idea logo." />
+                    <img
+                        src="https://img.shields.io/badge/android_studio-1a202c?style=for-the-badge&logo=android%20studio&logoColor=bfa000"
+                        alt="The Android Studio logo." />
+                    <img src="https://img.shields.io/badge/figma-1a202c?style=for-the-badge&logo=figma&logoColor=bfa000" alt="The Figma logo." />
+                </div>
+
+                <!-- Other tools -->
+                <div id="other-tools-badges">
+                    <img src="https://img.shields.io/badge/React-1a202c?style=for-the-badge&logo=react&logoColor=bfa000" alt="The React logo." />
+                    <img src="https://img.shields.io/badge/Svelte-1a202c?style=for-the-badge&logo=svelte&logoColor=bfa000" alt="The Svelte logo." />
+                    <img src="https://img.shields.io/badge/git-1a202c?style=for-the-badge&logo=git&logoColor=bfa000" alt="The Git logo." />
+                    <img src="https://img.shields.io/badge/gradle-1a202c?style=for-the-badge&logo=gradle&logoColor=bfa000" alt="The Gradle logo." />
+                    <img src="https://img.shields.io/badge/maven-1a202c?style=for-the-badge&logo=apache%20maven&logoColor=bfa000" alt="The Maven logo." />
+                    <img
+                        src="https://img.shields.io/badge/digital_ocean-1a202c?style=for-the-badge&logo=digitalocean&logoColor=bfa000"
+                        alt="The Digital Ocean logo." />
+                </div>
+            </div>
+            <footer>© 2024 TisLeo — <a href="https://github.com/TisLeo">GitHub</a></footer>
+        </div>
+    </body>
 </html>

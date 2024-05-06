@@ -11,13 +11,6 @@
     <div id="icons">
         <ul>
             <li>
-                <a
-                    title="Join my Discord server!"
-                    href="https://discord.gg/yx3gkv6Why"
-                    ><i class="fa-brands fa-discord" /></a
-                >
-            </li>
-            <li>
                 <a title="Visit my GitHub!" href="https://github.com/TisLeo"
                     ><i class="fa-brands fa-github" /></a
                 >
