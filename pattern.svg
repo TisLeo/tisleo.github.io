@@ -4,7 +4,7 @@
     <pattern id="doodad" width="35" height="35" viewBox="0 0 40 40" patternUnits="userSpaceOnUse" patternTransform="">
       <rect width="100%" height="100%" fill="rgba(0, 0, 0,1)"/>
       <path d="M0 11a 0 0 0 0 0 0 0a 20-20 0 0 1 20-20v20a 0 0 0 0 0 0 0a-20 20 0 0 1-20 20zM0 51a 0 0 0 0 0 0 0a 20-20 0 0 1 20-20v20a 0 0 0 0 0 0 0a-20 20 0 0 1-20 20z" fill="rgba(0, 0, 0,1)"/>
-      <path d="M20 29.5a 9.5-9.5 0 0 0 9.5-9.5a 10.5-10.5 0 0 1 10.5-10.5v1a-9.5 9.5 0 0 0-9.5 9.5a-10.5 10.5 0 0 1-10.5 10.5z" fill="rgba(189, 157, 0,0.2)"/>
+      <path d="M20 29.5a 9.5-9.5 0 0 0 9.5-9.5a 10.5-10.5 0 0 1 10.5-10.5v1a-9.5 9.5 0 0 0-9.5 9.5a-10.5 10.5 0 0 1-10.5 10.5z" fill="rgba(189, 157, 0,0.3)"/>
     </pattern>
   </defs>
   <rect fill="url(#doodad)" height="200%" width="200%"/>
